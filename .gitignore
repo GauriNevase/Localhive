@@ -1,0 +1,3 @@
+# Ignore specific files
+client/.env
+.env
