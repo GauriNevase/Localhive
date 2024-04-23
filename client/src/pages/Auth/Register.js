@@ -119,7 +119,7 @@ console.log(process.env.REACT_APP_API);
                         />
                     </div>
 
-                    <button type="submit" className="btn btn-primary">Submit</button><br></br><br></br>
+                    <button type="submit" className="btn">Submit</button><br></br><br></br>
                     <Link to="/login" variant="body2">
                   {"Already have an account? Sign In"}
                 </Link>

@@ -8,14 +8,33 @@
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 5%;
-    background-color:#cae5f0;
+    background-color:#f7ebbb;
+    
+}
+#email,
+#password{
+    outline: none;
+    border-color: #FFE26E;
+}
+#password:focus,
+#email:focus{
+    box-shadow: 0 0 0 0.2rem rgb(249, 233, 6); 
 }
 .btn{
     width: 100%;
-    height:2%;
-    background-color: #63c0e5;
+    /* height:2%; */
+    background-color:#FFE26E;
+    border-color: #FFE26E;
+    outline: none;
 }
-.mb-3{
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgb(249, 233, 6); 
+    
+}
+/* .mb-3{
     padding-top: 3%;
     font-family: 'Segoe UI';
-}
+} */
+/* a{
+    color: black;
+} */

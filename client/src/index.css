@@ -12,26 +12,31 @@
 /* //navbar css */
 .navbar {
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  /* font-size: 17px; */
   line-height: 26px;
   text-transform: uppercase;
-  box-shadow: 0 8px 6px -6px gray;
-  --webkit-box-shadow: 0 8px 6px -6px gray;
-  border-bottom: solid gray !important;
+  box-shadow: 0 6px 4px -4px gray;
+  /* --webkit-box-shadow: 0 8px 6px -6px gray; */
+  /* border-bottom: solid gray !important; */
 }
+
 
 .nav-link {
-  font-weight: 300 !important;
+  color: #000000;
+}
+.nav-link:hover{
+  color: #000000;
 }
 
-.active {
-  border-bottom: 2px solid black;
-}
 
 .navbar-brand {
   font-weight: 700;
   font-family: "roboto", sans-serif;
   letter-spacing: 3px;
+  color: #f5cb24;
+}
+.navbar-brand:hover{
+  color: #FFE26E;
 }
 
 .search-form {
@@ -52,7 +57,7 @@
 ==========footer============= */
 
 .footer {
-  color:#50b9e3;
+  /* color:#FFE26E; */
   padding: 25px;
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -60,17 +65,17 @@
     #434343,
     #000000
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background:#cae5f0
+  background:#ffe681
 }
 
 .footer a {
   text-decoration: none;
-  color: #50b9e3;
+  color: black;
   padding: 10px;
 }
 
 .footer a:hover {
-  color: #1d9fd2;
+  color: #ffe681;
   border-bottom: 1px solid #ffefba;
 }
 /* =================================

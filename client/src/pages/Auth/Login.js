@@ -71,11 +71,11 @@ const Login = () => {
                         />
                     </div>
                     <div className="mb-3">
-                        <button type="button" className="btn btn-primary" onClick={() => { navigate('/forgot-password') }}>
+                        <button type="button" className="btn" onClick={() => { navigate('/forgot-password') }}>
                             Forgot Password
                         </button>
                     </div>
-                    <button type="submit" className="btn btn-primary">Login</button><br></br><br></br>
+                    <button type="submit" className="btn">Login</button><br></br><br></br>
                     <Link to="/register" variant="body2">
                   {"Don't have an account? Sign Up"}
                 </Link>
